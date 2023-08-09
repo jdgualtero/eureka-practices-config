@@ -12,6 +12,6 @@ spring:
                     lob:
                         non_contextual_creation: true
     eureka:
-    	client:
-	   serviceUrl:
-      		defaultZone: http://localhost:8099/eureka/
+        client:
+	    serviceUrl:
+      	        defaultZone: http://localhost:8099/eureka/

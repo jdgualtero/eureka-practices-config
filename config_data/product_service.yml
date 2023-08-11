@@ -1,8 +1,8 @@
 spring:
     datasource:
-        password: Smilodon1
-        url: jdbc:postgresql://localhost:5432/postgres
-        username: admin
+        password: augeAdmin123
+        url: jdbc:postgresql://ip-172-31-6-64.us-east-2.compute.internal/postgres
+        username: postgres
     jpa:
         generate-ddl: true
         properties:
@@ -16,4 +16,4 @@ spring:
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://localhost:8099/eureka/
+            defaultZone: http://ip-172-31-8-146.us-east-2.compute.internal:8099/eureka/

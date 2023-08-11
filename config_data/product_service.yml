@@ -16,4 +16,4 @@ spring:
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://ip-172-31-8-146.us-east-2.compute.internal:8099/eureka/
+            defaultZone: ip-172-31-8-146.us-east-2.compute.internal:8099/eureka/

@@ -20,7 +20,7 @@ spring:
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://ec2-13-59-81-251.us-east-2.compute.amazonaws.com:8099/eureka/
+            defaultZone: http://ip-172-31-8-146.us-east-2.compute.internal:8099/eureka/
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"

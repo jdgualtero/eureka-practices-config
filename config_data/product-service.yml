@@ -1,0 +1,19 @@
+spring:
+    datasource:
+        password: Smilodon1
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: admin
+    jpa:
+        generate-ddl: true
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                jdbc:
+                    lob:
+                        non_contextual_creation: true
+    
+    
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8099/eureka/

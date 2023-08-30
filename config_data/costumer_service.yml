@@ -4,8 +4,8 @@ server:
 
 spring:
     datasource:
-        password: augeAdmin123
-        url: jdbc:postgresql://ip-172-31-6-64.us-east-2.compute.internal/postgres
+        password: Smilodon1
+        url: jdbc:postgresql://localhost::5432/postgres
         username: postgres
     jpa:
         generate-ddl: true
@@ -20,7 +20,7 @@ spring:
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://ip-172-31-8-146.us-east-2.compute.internal:8099/eureka/
+            defaultZone: http://localhost:8099/eureka/
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"

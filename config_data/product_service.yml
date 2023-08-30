@@ -2,7 +2,7 @@ spring:
     datasource:
         password: augeAdmin123
         url: jdbc:postgresql://localhost:5432/postgres
-        username: postgres
+        username: admin
     jpa:
         generate-ddl: true
         properties:

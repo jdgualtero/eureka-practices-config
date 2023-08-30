@@ -1,7 +1,7 @@
 spring:
     datasource:
         password: augeAdmin123
-        url: jdbc:postgresql://ip-172-31-6-64.us-east-2.compute.internal/postgres
+        url: jdbc:postgresql://localhost:5432/postgres
         username: postgres
     jpa:
         generate-ddl: true
